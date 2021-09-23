@@ -1,0 +1,8 @@
+npm init -f
+install nodemon eslint 
+eslint --init based on fele in node_modules/bin/eslint.js.
+
+"scripts": {
+    "start": "nodemon src/app.js --exec \"npm run lint && node\"",
+    "lint": "eslint **/*.js"
+  },
