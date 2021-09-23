@@ -1,0 +1,3 @@
+npm install -g @vue/cli
+npm install -g @vue/cli-init
+vue init webpack client
